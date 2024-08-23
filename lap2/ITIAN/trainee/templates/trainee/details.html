@@ -1,0 +1,23 @@
+{% extends 'base_details.html' %}
+
+{% block 'title' %}
+    trainee details
+{% endblock %}
+
+{% block 'content' %}
+    <p>
+        trainee id: {{trainee.trainee_id}} 
+    </p>
+    <p>
+        trainee name: {{trainee.first_name}} {{trainee.last_name}}
+    </p>
+    <p>
+        trainee email: {{trainee.email}}
+    </p>
+    <p>
+        trainee phone: {{trainee.phone}}
+    </p>
+    <p>
+        trainee address: {{trainee.address}}
+    </p>
+{%endblock%}
